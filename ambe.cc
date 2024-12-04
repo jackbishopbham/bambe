@@ -1,8 +1,8 @@
-TGraph *gXS_0 = new TGraph("XS_0.txt");
-TGraph *gXS_1 = new TGraph("XS_1.txt");
-TGraph *gXS_2 = new TGraph("XS_2.txt");
-TGraph *gstopping = new TGraph("stopping_power.txt");
-TGraph *gXS_t = new TGraph("XS_t.txt"); //Atomic Data and Nuclear Data Tables, Vol. 15, No. 1, January 1975
+TGraph *gXS_0 = new TGraph("AmBeData/XS_0.txt");
+TGraph *gXS_1 = new TGraph("AmBeData/XS_1.txt");
+TGraph *gXS_2 = new TGraph("AmBeData/XS_2.txt");
+TGraph *gstopping = new TGraph("AmBeData/stopping_power.txt");
+TGraph *gXS_t = new TGraph("AmBeData/XS_t.txt"); //Atomic Data and Nuclear Data Tables, Vol. 15, No. 1, January 1975
 /*
 TGraph2D *g_gs = new TGraph2D("n0_ang.dat");
 TGraph2D *gp  = new TGraph2D("n1_ang.dat");
